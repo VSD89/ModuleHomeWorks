@@ -24,20 +24,21 @@ public class StringTask {
         System.out.println(s2);
         int i1 = s2.length() / 2;
 
-    String s3 = s2.substring(0, i1 - 1);
-    String s4 = s2.substring(i1);
+        String s3 = s2.substring(0, i1 - 1);
+        String s4 = s2.substring(i1);
         StringBuffer sbf = new StringBuffer(s4);
         System.out.println(s3 + sbf.reverse());
 
         char[] sc = s2.toCharArray();
-        for (int i = 0; i < sc.length/2 - 1; i++) {
+        for (int i = 0; i < sc.length / 2 - 1; i++) {
             System.out.print(sc[i]);
         }
-        for (int i = sc.length - 1; i >= sc.length/2; i--) {
+        for (int i = sc.length - 1; i >= sc.length / 2; i--) {
             System.out.print(sc[i]);
         }
 //
-}}
+    }
+}
 //
 //        int n = 1;
 //        System.out.println(int.class);
@@ -48,7 +49,7 @@ public class StringTask {
 ////        int i = 0;
 ////        for (  ;  ;  ) {return;}
 //       int[][] i ={{2, 5, 7, 8, 3, 0},{2, 3}};
-       //       int i1[] = new int[2];
+//       int i1[] = new int[2];
 //        int[] j = {1, 2, 3};
 //        int[][] g = new int[2][3];
 //        String s = "f f ff gggf  gg  fdf  121";
