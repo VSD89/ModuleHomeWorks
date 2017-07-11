@@ -6,7 +6,6 @@ import java.util.Map;
 /**
  * Created by Валентин on 18.06.2017.
  */
-
 public class StringTask {
     private class Valek {
     }
